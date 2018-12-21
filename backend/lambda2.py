@@ -90,7 +90,7 @@ def lambda_handler(event, context):
 
     sqs = boto3.client('sqs')
 
-    queue_url = 'https://sqs.us-east-1.amazonaws.com/330744403812/RestaurantRequest'
+    queue_url = 
 
     response = sqs.receive_message(
         QueueUrl=queue_url,
