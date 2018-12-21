@@ -21,8 +21,7 @@ except ImportError:
     from urllib import quote
     from urllib import urlencode
 
-API_KEY= "ayzf13OTYgKpqlpN9g_Umo9PuHK-dg8CotRVLJzZrpse8vNrXdKegwFm-pFfChG1qDxnwgFhv0psye8Si_EgaROKYApGNF4k1pUULrrS-Er1x8Ftbn0j_3xU8qDnW3Yx"
-
+API_KEY= 
 API_HOST = 'https://api.yelp.com'
 SEARCH_PATH = '/v3/businesses/search'
 BUSINESS_PATH = '/v3/businesses/'
