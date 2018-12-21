@@ -13,7 +13,6 @@ const pushToOrdersQueue = function(order) {
     var params = {
       MessageBody: JSON.stringify(order),
       QueueUrl: process.env.queueUrl
-      //QueueUrl: "https://sqs.us-east-1.amazonaws.com/330744403812/RestaurantRequest"
     };
     sqs.sendMessage(params, (err) => err ? reject(err) : resolve());
   });
